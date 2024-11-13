@@ -31,7 +31,7 @@
   "author": "Vaibhav Acharya <vaibhavacharya111@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VaibhavAcharya/oneprompt.git"
+    "url": "git+https://github.com/VaibhavAcharya/oneprompt.git"
   },
   "homepage": "https://github.com/VaibhavAcharya/oneprompt",
   "bugs": "https://github.com/VaibhavAcharya/oneprompt/issues",
