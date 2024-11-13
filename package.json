@@ -1,11 +1,11 @@
 {
-  "name": "one-prompt",
+  "name": "oneprompt",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "description": "",
+  "description": "A library that brings structure, validation, and reliability to prompt engineering.",
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.js",
@@ -19,18 +19,27 @@
     "dist"
   ],
   "keywords": [
-    "bun"
+    "ai",
+    "llm",
+    "ml",
+    "genai",
+    "prompt",
+    "prompt engineering",
+    "openai"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "author": "Vaibhav Acharya <vaibhavacharya111@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "https://github.com/VaibhavAcharya/oneprompt.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "homepage": "https://github.com/VaibhavAcharya/oneprompt",
+  "bugs": "https://github.com/VaibhavAcharya/oneprompt/issues",
   "devDependencies": {
     "bun-plugin-dts": "^0.3.0",
     "@types/bun": "^1.1.10"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
   }
 }
