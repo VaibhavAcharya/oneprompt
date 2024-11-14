@@ -39,6 +39,7 @@ export class OnePrompt {
   private static readonly xmlParser = new XMLParser({
     ignoreAttributes: false,
     attributeNamePrefix: "@_",
+    stopNodes: ["template"],
     parseTagValue: false,
   });
 

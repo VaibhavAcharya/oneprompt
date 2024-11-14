@@ -43,6 +43,9 @@ const promptXmlString = `
 <template>
 You are an AI assistant specialized in {{expertise}}.
 Your user's name is {{name}}.
+
+<note>tags inside template are not processed.</note>
+
 </template>
 `;
 
@@ -77,6 +80,7 @@ Prompts in One Prompt are build using XML and consist of three main sections:
 ```xml
 <template>
 Hello {{user}}! I'll be {{mode}} in our interaction.
+<note>tags inside template are not processed.</note>
 </template>
 ```
 

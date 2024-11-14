@@ -17,6 +17,8 @@ const xmlString = `<?xml version="1.0" encoding="UTF-8"?>
 
 I see you are {{age}} years old.
 
+<html> tags inside template are not processed.
+
 \`\`\`python
 # This is code with syntax highlighting
 def hello():
