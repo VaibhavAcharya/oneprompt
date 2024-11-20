@@ -4,7 +4,7 @@
 [![tests passing: 26/26](https://img.shields.io/badge/tests%20passing-26/26-blue.svg)](https://github.com/VaibhavAcharya/oneprompt/blob/main/tests/index.ts)
 
 **A super framework for prompt engineering.**
-s
+
 An XML-based framework for defining, managing, and validating AI/LLM prompts in a structured way.
 
 It brings software engineering principles to prompt engineering by providing a robust system for variable handling, conditional logic, and modular prompt design.
