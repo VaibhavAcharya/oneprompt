@@ -1,7 +1,7 @@
 {
   "name": "oneprompt",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,7 +13,8 @@
   },
   "scripts": {
     "build": "bun run build.ts",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "test": "bun test ./tests/index.ts"
   },
   "files": [
     "dist"
@@ -36,8 +37,9 @@
   "homepage": "https://github.com/VaibhavAcharya/oneprompt",
   "bugs": "https://github.com/VaibhavAcharya/oneprompt/issues",
   "devDependencies": {
+    "@types/bun": "^1.1.10",
     "bun-plugin-dts": "^0.3.0",
-    "@types/bun": "^1.1.10"
+    "prettier": "^3.3.3"
   },
   "dependencies": {
     "fast-xml-parser": "^4.5.0"
